@@ -1,12 +1,8 @@
 on:
   pull_request_target:
   # for OSS with public contributions (forked PR)
-
-  pull_request:
-  # Useful for triaging code review, and generate compliance status check.
-  # Semantic release? Done.
-  # Make a file change in a mono repo. Tag the mono repo getting changed to generate better release!
-
+    types: [opened, edited]
+  
   issues:
   # Useful for triaging error!
   # '- [x] Is this a bug?' = 'bug' label!
