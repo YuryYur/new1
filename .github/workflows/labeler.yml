@@ -33,5 +33,4 @@ jobs:
       - uses: fuxingloh/multi-labeler@v4 # v4
         with:
           github-token: ${{secrets.GITHUB_TOKEN}} # optional, default to '${{ github.token }}'
-          config-path: .github/labeler.yml # optional, default to '.github/labeler.yml'
-          config-repo: my-org/my-repo # optional, default to '${{ github.repository }}'
+
